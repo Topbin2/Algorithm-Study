@@ -1,4 +1,4 @@
-# Alorithm-Study
+# Alorithm-Study 일정
 
 #### 5.23 ~ 5.29 -> SECTION1 ~ SECTION6 => 완료
 #### 5.30 ~ 6.5 -> SECTION7 ~ SECTION9 (재귀)
