@@ -33,20 +33,25 @@ class SingleLinkedList {
 
   // push
   push(val) {
+    // newNode 생성
     let newNode = new Node(val);
     if (!this.head) {
+      // head가 null일때 head와 tail은 newNode로 선언
       this.head = newNode;
       this.tail = this.head;
     } else {
+      // head가 있을 때는 tail의 next 프로퍼티를 newNode로 선언, newNode가 tail이 됨
       this.tail.next = newNode;
       this.tail = newNode;
     }
+    // SingleLinkedList length 1 증가
     this.length++;
     return this;
   }
 
   // pop
   pop() {
+    // head가 null일때 undefined 반환
     if (!this.head) return undefined;
     let current = this.head;
     let newTail = current;
