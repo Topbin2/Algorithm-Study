@@ -1,4 +1,4 @@
-# Graphs
+# Graphs(그래프)
 
 ## What is a Graphs?
 
@@ -28,7 +28,7 @@
 
 ### Adjacency Matrix vs Adjacency List
 
-![graphBigO](./graphBigO.png)
+![graphBigO](https://user-images.githubusercontent.com/90498108/182165860-82c4932f-1966-47de-8f50-68ed7fb199e4.png)
 
 ## 구현
 
